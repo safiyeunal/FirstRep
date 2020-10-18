@@ -22,7 +22,7 @@ public class WhileTask {
 			if (day<6) {
 				System.out.println("I need a day off");
 			}else {
-				System.out.println("It is weekend and I an off");
+				System.out.println("It is weekend and I am off");
 				break;
 			}
 			day++;

@@ -25,29 +25,32 @@ public class WhileLoopIntro {
 //		}
 //want to print numbers from 1 to 50
 		System.out.println("PRINTING NUMBERS 1 TO 50-----------------------");
-		int num=0;
+		int num=1;
 		while(num<=50) {  //or (num<51)
-			System.out.println(num + " ");
+			System.out.print(num + " ");
 			num++;
 		}
+		System.out.println();
 // want to print numbers from 10 to 60
 		System.out.println("PRINTING NUMBERS 1 TO 60-----------------------");	
 		
 		int a=10;
 		
 		while(a<61) {
-			System.out.println(a + " ");
+			System.out.print(a + " ");
 			a++;
 		}
+		System.out.println();
 // I want to print numbers from 100 to 60
 		System.out.println("PRINTING NUMBERS 100 TO 60------------------");		
 			
 		int b=100;
 		
 		while(b>=60) {
-			System.out.println(b + " ");
+			System.out.print(b + " ");
 			b--;
 		}
+		System.out.println();
 //I want to print numbers from 10 to 30 only even numbers
 		System.out.println("PRINTING NUMBERS 10 TO 30 only even------------------");
 			
@@ -62,16 +65,16 @@ public class WhileLoopIntro {
 				c++;
 				
 			}
-			
+			System.out.println();
 			System.out.println("---Another way---");
 			
 			int d=10;
 			
 			while (d<=30) {
-				System.out.println(d+ " ");
+				System.out.print(d+ " ");
 				d+=2;
 			}
-			
+			System.out.println();
 // print numbers from 100 to 1 odd numbers only
 			System.out.println("100 to 1 odd numbers");
 			int e=100;
@@ -79,17 +82,17 @@ public class WhileLoopIntro {
 			while (e > 0) {
 				
 				if ((e%2)!=0) {
-				System.out.println(e + " ");
+				System.out.print(e + " ");
 				}
 				e--;
 			}
-			
+			System.out.println();
 			System.out.println("---Another way---");
 			
 			int f = 99;
 			
 			while (f>0) {
-				System.out.println(f+ " ");
+				System.out.print(f+ " ");
 				f-=2;
 			}
 			

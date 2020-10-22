@@ -33,7 +33,11 @@ public class ArrayDemo {
 		num[4]=100;
 		System.out.println("Value of 5th element after changing the value " + num[4]);
 		
+		int [] array=new int[2];
+		//array[0]=10.99; CE: type of value must be integer
 		
+	//	String[] array=new String[4];
+	//	array[0]="Hello";
 		
 	}
 

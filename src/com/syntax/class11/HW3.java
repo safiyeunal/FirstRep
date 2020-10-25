@@ -15,7 +15,7 @@ public class HW3 {
 			System.out.println("The capital of " + countries[v] + " is " + capitals[v]);
 		}
 		
-		System.out.println("----------------------------------------------------");
+		System.out.println("------------------------2nd way----------------------------");
 		
 		String capital;
 		for (String country:countries) {
